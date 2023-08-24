@@ -1,0 +1,32 @@
+pack_id: 1.1
+pkversion: 001
+schemaId_input:    ref027a
+schemaId_template: ref027a
+codec:descr_encode: srid=4326
+
+files:
+    -
+        p:    1
+        file: 7bcbd3cb29eeae812453bdc5a30cec5ffa0d2404df2464b4e8afddb97bc7b7ef.pbf
+        name: Datos OpenStreetMap
+
+license_evidences:
+    definition: [ODbL-1.0, odbl, http://www.opendefinition.org/licenses/odc-odbl]
+    file: 4e25c3304e7c9686238fdbfdc076c2dc6aab0ac867b318805877a9fd8692da06.zip
+    uri_evidency: http://web.archive.org/web/20230824114638/https://www.openstreetmap.org/copyright
+
+layers:
+  geoaddress:
+        subtype: full
+        method: osm2sql
+        file: 1
+        orig_filename: mexico-latest.osm
+  via:
+        subtype: full
+        method: osm2sql
+        file: 1
+        orig_filename: mexico-latest.osm
+
+openstreetmap:
+    file: 1
+    method: none

@@ -1,0 +1,2 @@
+7bcbd3cb29eeae812453bdc5a30cec5ffa0d2404df2464b4e8afddb97bc7b7ef *mexico-latest.osm.pbf
+4e25c3304e7c9686238fdbfdc076c2dc6aab0ac867b318805877a9fd8692da06 *license_evidences.zip
