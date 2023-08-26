@@ -1,0 +1,11 @@
+osm_id,jurisd_base_id,jurisd_local_id,name,parent_abbrev,abbrev,wikidata_id,lexlabel,isolabel_ext,ddd,info
+5605534,484,6001,Armería,COL,,686374,armeria,MX-COL-Armeria,,"{""area_sr"": 0.03508, ""area_km2"": 409, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 20.2, ""side_estim_deg"": 0.1873, ""elongation_factor"": 1.82}"
+5605682,484,6002,Colima,COL,,1998847,colima,MX-COL-Colima,,"{""area_sr"": 0.06405, ""area_km2"": 746, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 27.3, ""side_estim_deg"": 0.2531, ""elongation_factor"": 2.72}"
+5605685,484,6003,Comala,COL,,2598172,comala,MX-COL-Comala,,"{""area_sr"": 0.02703, ""area_km2"": 314, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 17.7, ""side_estim_deg"": 0.1644, ""elongation_factor"": 2.91}"
+5605699,484,6004,Coquimatlán,COL,,8350879,coquimatlan,MX-COL-Coquimatlan,,"{""area_sr"": 0.04532, ""area_km2"": 528, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 23, ""side_estim_deg"": 0.2129, ""elongation_factor"": 2.44}"
+5605720,484,6005,Cuauhtémoc,COL,,2533348,cuauhtemoc,MX-COL-Cuauhtemoc,,"{""area_sr"": 0.03544, ""area_km2"": 412, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 20.3, ""side_estim_deg"": 0.1883, ""elongation_factor"": 2.22}"
+5605901,484,6006,Ixtlahuacán,COL,,11684160,ixtlahuacan,MX-COL-Ixtlahuacan,,"{""area_sr"": 0.03232, ""area_km2"": 377, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 19.4, ""side_estim_deg"": 0.1798, ""elongation_factor"": 2.18}"
+5606002,484,6007,Manzanillo,COL,,2991108,manzanillo,MX-COL-Manzanillo,,"{""area_sr"": 0.11639, ""area_km2"": 1355, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 36.8, ""side_estim_deg"": 0.3412, ""elongation_factor"": 11.37}"
+5606044,484,6008,Minatitlán,COL,,1013819,minatitlan,MX-COL-Minatitlan,,"{""area_sr"": 0.03569, ""area_km2"": 415, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 20.4, ""side_estim_deg"": 0.1889, ""elongation_factor"": 2.6}"
+5606445,484,6009,Tecomán,COL,,3850513,tecoman,MX-COL-Tecoman,,"{""area_sr"": 0.08039, ""area_km2"": 938, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 30.6, ""side_estim_deg"": 0.2835, ""elongation_factor"": 18.09}"
+5606623,484,6010,"Villa de Álvarez",COL,,12221222,villa.alvarez,MX-COL-VillaAlvarez,,"{""area_sr"": 0.02476, ""area_km2"": 288, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 17, ""side_estim_deg"": 0.1573, ""elongation_factor"": 3.9}"

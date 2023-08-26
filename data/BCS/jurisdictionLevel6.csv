@@ -1,0 +1,6 @@
+osm_id,jurisd_base_id,jurisd_local_id,name,parent_abbrev,abbrev,wikidata_id,lexlabel,isolabel_ext,ddd,info
+5605686,484,3001,"Municipio de Comondú",BCS,,162422,municipio.comondu,MX-BCS-MunicipioComondu,,"{""area_sr"": 1.64609, ""area_km2"": 18334, ""fat_deg_m"": 0.0000095, ""side_estim_km"": 135.4, ""side_estim_deg"": 1.283, ""elongation_factor"": 3.49}"
+5605963,484,3003,"Municipio de La Paz",BCS,,1861497,municipio.la.paz,MX-BCS-MunicipioLaPaz,,"{""area_sr"": 1.4076, ""area_km2"": 15840, ""fat_deg_m"": 0.0000094, ""side_estim_km"": 125.9, ""side_estim_deg"": 1.1864, ""elongation_factor"": 3.44}"
+5605981,484,3009,"Municipio de Loreto",BCS,,1861506,municipio.loreto,MX-BCS-MunicipioLoreto,,"{""area_sr"": 0.41728, ""area_km2"": 4630, ""fat_deg_m"": 0.0000095, ""side_estim_km"": 68, ""side_estim_deg"": 0.646, ""elongation_factor"": 3.7}"
+5605984,484,3008,"Municipio de Los Cabos",BCS,,659516,municipio.cabos,MX-BCS-MunicipioCabos,,"{""area_sr"": 0.33131, ""area_km2"": 3754, ""fat_deg_m"": 0.0000094, ""side_estim_km"": 61.3, ""side_estim_deg"": 0.5756, ""elongation_factor"": 1.87}"
+5606070,484,3002,"Municipio de Mulegé",BCS,,1548701,municipio.mulege,MX-BCS-MunicipioMulege,,"{""area_sr"": 2.9225, ""area_km2"": 32060, ""fat_deg_m"": 0.0000095, ""side_estim_km"": 179.1, ""side_estim_deg"": 1.7095, ""elongation_factor"": 2.33}"

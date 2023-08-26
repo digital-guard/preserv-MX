@@ -9,7 +9,7 @@ El territorio nacional y sus subdivisiones representam **jurisdiciones**:
 
 * El país está dividido en **32 entidades federativas**(treinta y un estados y la Ciudad de México, capital de la república).
 
-* Los estados se subdividen en **2469 municipios**. Ciudad de México se subdividen en **16 demarcaciones territoriales**.
+* Los estados se subdividen en **2447 municipios**. Ciudad de México se subdividen en **16 demarcaciones territoriales**.
 
 La jurisdicción que asigna nombres a las calles y el sistema de numeración urbana es el municipio.
 

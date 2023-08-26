@@ -1,0 +1,13 @@
+osm_id,jurisd_base_id,jurisd_local_id,name,parent_abbrev,abbrev,wikidata_id,lexlabel,isolabel_ext,ddd,info
+5961447,484,4010,Calakmul,CAM,,2605348,calakmul,MX-CAM-Calakmul,,"{""area_sr"": 1.19592, ""area_km2"": 13986, ""fat_deg_m"": 0.0000092, ""side_estim_km"": 118.3, ""side_estim_deg"": 1.0936, ""elongation_factor"": 1.68}"
+5961448,484,4001,Calkiní,CAM,,2605401,calkini,MX-CAM-Calkini,,"{""area_sr"": 0.18127, ""area_km2"": 2095, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 45.8, ""side_estim_deg"": 0.4258, ""elongation_factor"": 3.15}"
+5961451,484,4011,Candelaria,CAM,,2312662,candelaria,MX-CAM-Candelaria,,"{""area_sr"": 0.484, ""area_km2"": 5670, ""fat_deg_m"": 0.0000092, ""side_estim_km"": 75.3, ""side_estim_deg"": 0.6957, ""elongation_factor"": 2.03}"
+5961454,484,4003,Carmen,CAM,,2720137,carmen,MX-CAM-Carmen,,"{""area_sr"": 0.7331, ""area_km2"": 8568, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 92.6, ""side_estim_deg"": 0.8562, ""elongation_factor"": 3.11}"
+5961460,484,4004,Champotón,CAM,,2543920,champoton,MX-CAM-Champoton,,"{""area_sr"": 0.56593, ""area_km2"": 6591, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 81.2, ""side_estim_deg"": 0.7523, ""elongation_factor"": 2.59}"
+5961485,484,4009,Escárcega,CAM,,2541910,escarcega,MX-CAM-Escarcega,,"{""area_sr"": 0.40934, ""area_km2"": 4783, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 69.2, ""side_estim_deg"": 0.6398, ""elongation_factor"": 3.09}"
+5961489,484,4005,Hecelchakán,CAM,,2284273,hecelchakan,MX-CAM-Hecelchakan,,"{""area_sr"": 0.11038, ""area_km2"": 1278, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 35.7, ""side_estim_deg"": 0.3322, ""elongation_factor"": 2.64}"
+5961493,484,4006,Hopelchén,CAM,,590639,hopelchen,MX-CAM-Hopelchen,,"{""area_sr"": 0.66941, ""area_km2"": 7780, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 88.2, ""side_estim_deg"": 0.8182, ""elongation_factor"": 2.16}"
+5961450,484,4002,"Municipio de Campeche",CAM,,2541946,municipio.campeche,MX-CAM-MunicipioCampeche,,"{""area_sr"": 0.2799, ""area_km2"": 3250, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 57, ""side_estim_deg"": 0.5291, ""elongation_factor"": 3.58}"
+5961527,484,4007,Palizada,CAM,,2605317,palizada,MX-CAM-Palizada,,"{""area_sr"": 0.18711, ""area_km2"": 2190, ""fat_deg_m"": 0.0000092, ""side_estim_km"": 46.8, ""side_estim_deg"": 0.4326, ""elongation_factor"": 2.46}"
+13565922,484,4012,Seybaplaya,CAM,,61959987,seybaplaya,MX-CAM-Seybaplaya,,"{""area_sr"": 0.0221, ""area_km2"": 257, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 16, ""side_estim_deg"": 0.1487, ""elongation_factor"": 1.93}"
+5961561,484,4008,Tenabo,CAM,,2476938,tenabo,MX-CAM-Tenabo,,"{""area_sr"": 0.09123, ""area_km2"": 1057, ""fat_deg_m"": 0.0000093, ""side_estim_km"": 32.5, ""side_estim_deg"": 0.302, ""elongation_factor"": 2.48}"
