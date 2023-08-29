@@ -6,7 +6,7 @@
 Donante: <a rel="external" target="_doador" href="https://www.inegi.org.mx">Instituto Nacional de Estadística y Geografía</a>
 <br/>&nbsp; <small>RFC INE0804164Z7</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q795074">Q795074</a></small><br/>
 
-Obtido via <i></i> em <b></b> por:
+Obtido via <i>site</i> em <b>16/08/2023</b> por:
 <br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/0e1">0e1</a>
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
 </td></tr>
