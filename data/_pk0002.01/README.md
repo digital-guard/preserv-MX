@@ -1,6 +1,6 @@
 <aside>
 <table align="right" style="padding: 1em">
-<tr><td>Paquete <a target="_git" title="Enlace canónico a git para este paquete." href="https://git.digital-guard.org/preserv-MX/blob/main/data/_pk0002.01"><big><b>pk0002.01</b></big></a> de <small><a target="_osmcodes" title="Jurisdicción" href="https://osm.codes/MX">MX</a></small>
+<tr><td>Paquete <a target="_git" title="Enlace canónico a git para este paquete." href="https://git.digital-guard.org/preserv-MX/blob/main/data/_pk0002.01"><big><b>pk0002.01</b></big></a> de <small><a target="_afacodes" title="Jurisdicción" href="https://afa.codes/MX">MX</a></small>
 </td></tr>
 <tr><td>
 Donante: <a rel="external" target="_doador" href="https://www.inegi.org.mx">Instituto Nacional de Estadística y Geografía</a>
