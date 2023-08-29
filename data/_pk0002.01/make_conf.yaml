@@ -39,40 +39,32 @@ layers:
     method: shp2sqlparalell
     file: 1
     orig_filename: ne
-    sql_select:
-    standardized_fields:
-     -
-      name:
-      standard: via
+    sql_select: [geom]
+    # standardized_fields:
+    #  -
+    #   name:
+    #   standard: via
 
   block:
     subtype: full
     method: shp2sqlparalell
     file: 2
     orig_filename: m
-    sql_select:
-    standardized_fields:
-     -
-      name:
-      standard:
+    sql_select: [geom]
 
   nsvia:
     subtype: full
     method: shp2sqlparalell
     file: 3
     orig_filename: as
-    sql_select:
+    sql_select: [geom]
 
   via:
     subtype: full
     method: shp2sqlparalell
     file: 4
     orig_filename: v
-    sql_select:
-    standardized_fields:
-     -
-      name:
-      standard: via
+    sql_select: [geom]
 
   # block_front:
   #   subtype: full
@@ -95,4 +87,6 @@ layers:
   #    -
   #     name:
   #     standard:
+
+test_evidence: evidenceTest.png
 
