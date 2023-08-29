@@ -57,7 +57,15 @@ layers:
     method: shp2sqlparalell
     file: 3
     orig_filename: as
-    sql_select: [geom]
+    sql_select: [gid, nomasen AS nsvia, cveasen AS ref, geom]
+    standardized_fields:
+     -
+      name: nomasen
+      standard: nsvia
+      comment: Nombre del asentamiento.
+     -
+      name: cveasen
+      standard: ref
 
   via:
     subtype: full
