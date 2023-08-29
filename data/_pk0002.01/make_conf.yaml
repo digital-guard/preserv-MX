@@ -39,25 +39,21 @@ layers:
     method: shp2sqlparalell
     file: 1
     orig_filename: ne
-    sql_select: [geom]
-    # standardized_fields:
-    #  -
-    #   name:
-    #   standard: via
+    sql_select: [gid,geografico,cveft,cvegeo,tipovial,nomvial,cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen,cp,codigo,fechaact,instituc,geometria,geom]
 
   block:
     subtype: full
     method: shp2sqlparalell
     file: 2
     orig_filename: m
-    sql_select: [geom]
+    sql_select: [gid,geografico,cvegeo,codigo,fechaact,instituc,geometria,geom]
 
   nsvia:
     subtype: full
     method: shp2sqlparalell
     file: 3
     orig_filename: as
-    sql_select: [gid, nomasen AS nsvia, cveasen AS ref, geom]
+    sql_select: [gid,cveasen AS ref,nomasen AS nsvia,codigo,fechaact,instituc,geometria,tipoasen,geom]
     standardized_fields:
      -
       name: nomasen
@@ -72,29 +68,22 @@ layers:
     method: shp2sqlparalell
     file: 4
     orig_filename: v
-    sql_select: [geom]
+    sql_select: [gid,geografico,tipovial,nomvial,sentido,destino,codigo,fechaact,instituc,geometria,geom]
 
   # block_front:
   #   subtype: full
   #   method: shp2sqlparalell
   #   file: 5
   #   orig_filename: fm
-  #   sql_select:
+  #   sql_select: [gid,geografico,cveft,cvegeo,tipovial,nomvial,cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen,cp,codigo,fechaact,instituc,geometria,geom]
   #   standardized_fields:
-  #    -
-  #     name:
-  #     standard:
-  #
+
   # urban_area:
   #   subtype: full
   #   method: shp2sqlparalell
   #   file: 6
   #   orig_filename: l
-  #   sql_select:
-  #   standardized_fields:
-  #    -
-  #     name:
-  #     standard:
+  #   sql_select: [gid,geografico,tipoloc,cvegeo,nomloc,codigo,fechaact,instituc,geometria,geom]
 
 test_evidence: evidenceTest.png
 
