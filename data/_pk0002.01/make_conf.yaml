@@ -38,7 +38,7 @@ layers:
     subtype: full
     method: shp2sqlparalell
     file: 1
-    orig_filename:
+    orig_filename: ne
     sql_select:
     standardized_fields:
      -
@@ -49,7 +49,7 @@ layers:
     subtype: full
     method: shp2sqlparalell
     file: 2
-    orig_filename:
+    orig_filename: m
     sql_select:
     standardized_fields:
      -
@@ -60,14 +60,14 @@ layers:
     subtype: full
     method: shp2sqlparalell
     file: 3
-    orig_filename:
+    orig_filename: as
     sql_select:
 
   via:
     subtype: full
     method: shp2sqlparalell
     file: 4
-    orig_filename:
+    orig_filename: v
     sql_select:
     standardized_fields:
      -
@@ -78,8 +78,7 @@ layers:
   #   subtype: full
   #   method: shp2sqlparalell
   #   file: 5
-  #   orig_filename:
-  #   orig_subfilename:
+  #   orig_filename: fm
   #   sql_select:
   #   standardized_fields:
   #    -
@@ -90,7 +89,7 @@ layers:
   #   subtype: full
   #   method: shp2sqlparalell
   #   file: 6
-  #   orig_filename:
+  #   orig_filename: l
   #   sql_select:
   #   standardized_fields:
   #    -
