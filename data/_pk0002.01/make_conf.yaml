@@ -38,7 +38,7 @@ layers:
     subtype: full
     method: shp2sqlparalell
     file: 1
-    orig_filename: ne
+    orig_filename: direccion/*ne
     sql_select: [gid,geografico,cveft,cvegeo,tipovial,nomvial,cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen,cp,codigo,fechaact,instituc,geometria,geom]
     codec: SHP~MS-Windows
 
