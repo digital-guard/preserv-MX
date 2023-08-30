@@ -40,6 +40,7 @@ layers:
     file: 1
     orig_filename: ne
     sql_select: [gid,geografico,cveft,cvegeo,tipovial,nomvial,cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen,cp,codigo,fechaact,instituc,geometria,geom]
+    codec: SHP~MS-Windows
 
   block:
     subtype: full
@@ -47,6 +48,7 @@ layers:
     file: 2
     orig_filename: m
     sql_select: [gid,geografico,cvegeo,codigo,fechaact,instituc,geometria,geom]
+    codec: SHP~MS-Windows
 
   nsvia:
     subtype: full
@@ -54,6 +56,7 @@ layers:
     file: 3
     orig_filename: as
     sql_select: [gid,cveasen AS ref,nomasen AS nsvia,codigo,fechaact,instituc,geometria,tipoasen,geom]
+    codec: SHP~MS-Windows
     standardized_fields:
      -
       name: nomasen
@@ -69,6 +72,7 @@ layers:
     file: 4
     orig_filename: v
     sql_select: [gid,geografico,tipovial,nomvial,sentido,destino,codigo,fechaact,instituc,geometria,geom]
+    codec: SHP~MS-Windows
 
   # block_front:
   #   subtype: full
@@ -76,6 +80,7 @@ layers:
   #   file: 5
   #   orig_filename: fm
   #   sql_select: [gid,geografico,cveft,cvegeo,tipovial,nomvial,cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen,cp,codigo,fechaact,instituc,geometria,geom]
+  #   codec: SHP~MS-Windows
   #   standardized_fields:
 
   # urban_area:
@@ -84,6 +89,7 @@ layers:
   #   file: 6
   #   orig_filename: l
   #   sql_select: [gid,geografico,tipoloc,cvegeo,nomloc,codigo,fechaact,instituc,geometria,geom]
+  #   codec: SHP~MS-Windows
 
 test_evidence: evidenceTest.png
 
