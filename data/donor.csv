@@ -1,3 +1,3 @@
-local_id,scope_label,shortName,vat_id,legalName,wikidata_id,url
-1,MX,OSM,wd:P2657:365969219933-54,OpenStreetMap Foundation,6542248,https://www.osmfoundation.org/
-2,MX,INEGI,RFC:INE0804164Z7,Instituto Nacional de Estadística y Geografía,795074,https://www.inegi.org.mx
+local_id,scope_label,vat_id,legalName,wikidata_id,url
+1,MX,wd:P2657:365969219933-54,OpenStreetMap Foundation,6542248,https://www.osmfoundation.org/
+2,MX,RFC:INE0804164Z7,Instituto Nacional de Estadística y Geografía,795074,https://www.inegi.org.mx
