@@ -39,7 +39,7 @@ layers:
     method: shp2sqlparalell
     file: 1
     orig_filename: direccion/*ne
-    sql_select: [gid,numext AS hnum,idunico,cvegeo AS ref,idnexft,cveft,tipovial,nomvial AS via,cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen AS nsvia,cp,codigo,fechaact,observ,nomserv,tipoarea,geografico,acceso,instituc,geometria,tipodom,tiposerv,geom]
+    sql_select: [gid,numext AS hnum,idunico,cvegeo AS ref,idnexft,cveft,"tipovial || ' ' || nomvial AS via",cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen AS nsvia,cp,codigo,fechaact,observ,nomserv,tipoarea,geografico,acceso,instituc,geometria,tipodom,tiposerv,geom]
     codec: SHP~MS-Windows
     standardized_fields:
      -
@@ -47,7 +47,7 @@ layers:
       standard: hnum
       comment: número de dirección externo. Sin número es representado como "SN".
      -
-      name: nomvial
+      name: "tipovial || ' ' || nomvial"
       standard: via
       comment: nombre de la vía en mayúsculas, con acentuación y abreviaturas. Sin nombre es representado como "NINGUNO".
      -
@@ -59,9 +59,6 @@ layers:
       standard: ref
       comment: clave de estadística INEGI para la dirección.
     other_fields:
-     -
-      name: tipovial
-      comment: tipo vial.
      -
       name: tipoasen
       comment: tipo del asentamiento (barrio, colonia etc.).
@@ -104,17 +101,13 @@ layers:
     method: shp2sqlparalell
     file: 4
     orig_filename: v
-    sql_select: [gid,geografico,tipovial,nomvial AS via,sentido,destino,codigo,fechaact,instituc,geometria,geom]
+    sql_select: [gid,geografico,"tipovial || ' ' || nomvial AS via",sentido,destino,codigo,fechaact,instituc,geometria,geom]
     codec: SHP~MS-Windows
     standardized_fields:
      -
-      name: nomvial
+      name: "tipovial || ' ' || nomvial"
       standard: via
       comment: nombre de la vía en mayúsculas, con acentuación y abreviaturas. Sin nombre es representado como "NINGUNO".
-    other_fields:
-     -
-      name: tipovial
-      comment: tipo vial.
 
   # block_front:
   #   subtype: full
