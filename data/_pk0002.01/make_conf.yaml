@@ -39,7 +39,7 @@ layers:
     method: shp2sqlparalell
     file: 1
     orig_filename: direccion/*ne
-    sql_select: [gid,numext AS hnum,idunico,cvegeo AS ref,idnexft,cveft,"tipovial || ' ' || nomvial AS via",cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen AS nsvia,cp,codigo,fechaact,observ,nomserv,tipoarea,geografico,acceso,instituc,geometria,tipodom,tiposerv,geom]
+    sql_view: SELECT gid,numext AS hnum,idunico,cvegeo AS ref,idnexft,cveft,tipovial || ' ' || nomvial AS via,cveref1,tipovr1,nomref1,cveref2,tipovr2,nomref2,cveasen,tipoasen,nomasen AS nsvia,cp,codigo,fechaact,observ,nomserv,tipoarea,geografico,acceso,instituc,geometria,tipodom,tiposerv,geom FROM $(tabname)
     codec: SHP~MS-Windows
     standardized_fields:
      -
@@ -101,7 +101,7 @@ layers:
     method: shp2sqlparalell
     file: 4
     orig_filename: v
-    sql_select: [gid,geografico,"tipovial || ' ' || nomvial AS via",sentido,destino,codigo,fechaact,instituc,geometria,geom]
+    sql_view: SELECT gid,geografico,tipovial || ' ' || nomvial AS via,sentido,destino,codigo,fechaact,instituc,geometria,geom FROM $(tabname)
     codec: SHP~MS-Windows
     standardized_fields:
      -
@@ -127,4 +127,3 @@ layers:
   #   codec: SHP~MS-Windows
 
 test_evidence: evidenceTest.png
-
