@@ -27,7 +27,7 @@ Los archivos contienen "capas de datos" temáticas. Los metadatos también descr
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
-Nombre del archivo: `direccion/*ne`<br/>*Descarga* e integridad: [d0b51cdba97f9c04eb7e8e4c17695770d66730b895308543781729851e0bd67e.zip](http://dl.digital-guard.org/d0b51cdba97f9c04eb7e8e4c17695770d66730b895308543781729851e0bd67e.zip)<br/>Descripción: Direccion<br/>Formato: shp<br/>SRID: 6362
+Nombre del archivo: `direccion/*ne`<br/>*Descarga* e integridad: [d0b51cdba97f9c04eb7e8e4c17695770d66730b895308543781729851e0bd67e.zip](http://dl.digital-guard.org/d0b51cdba97f9c04eb7e8e4c17695770d66730b895308543781729851e0bd67e.zip)<br/>Descripción: Direccion<br/>Tamaño del archivo: 639926884 bytes (610.28 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
 
 #### Datos relevantes
 * `numext` (hnum): número de dirección externo. Sin número es representado como "SN".
@@ -43,14 +43,14 @@ Nombre del archivo: `direccion/*ne`<br/>*Descarga* e integridad: [d0b51cdba97f9c
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/> block
 
-Nombre del archivo: `m`<br/>*Descarga* e integridad: [55e32574fbee8b1088979c56dfb44d7f585d94e4677957bb61defa74e7b92377.zip](http://dl.digital-guard.org/55e32574fbee8b1088979c56dfb44d7f585d94e4677957bb61defa74e7b92377.zip)<br/>Descripción: Manzana<br/>Formato: shp<br/>SRID: 6362
+Nombre del archivo: `m`<br/>*Descarga* e integridad: [55e32574fbee8b1088979c56dfb44d7f585d94e4677957bb61defa74e7b92377.zip](http://dl.digital-guard.org/55e32574fbee8b1088979c56dfb44d7f585d94e4677957bb61defa74e7b92377.zip)<br/>Descripción: Manzana<br/>Tamaño del archivo: 185367739 bytes (176.78 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
 
 #### Datos relevantes
 * `cvegeo` (ref): clave de estadística INEGI para la manzana.
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/> nsvia
 
-Nombre del archivo: `as`<br/>*Descarga* e integridad: [922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip](http://dl.digital-guard.org/922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip)<br/>Descripción: Asentamiento<br/>Formato: shp<br/>SRID: 6362
+Nombre del archivo: `as`<br/>*Descarga* e integridad: [922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip](http://dl.digital-guard.org/922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip)<br/>Descripción: Asentamiento<br/>Tamaño del archivo: 19898946 bytes (18.98 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
 
 #### Datos relevantes
 * `nomasen` (nsvia): nombre del asentamiento.
@@ -62,7 +62,7 @@ Nombre del archivo: `as`<br/>*Descarga* e integridad: [922fd7121333ca1c08cedf94f
 
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
 
-Nombre del archivo: `v`<br/>*Descarga* e integridad: [09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip](http://dl.digital-guard.org/09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip)<br/>Descripción: Vial<br/>Formato: shp<br/>SRID: 6362
+Nombre del archivo: `v`<br/>*Descarga* e integridad: [09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip](http://dl.digital-guard.org/09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip)<br/>Descripción: Vial<br/>Tamaño del archivo: 125594091 bytes (119.78 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
 
 #### Datos relevantes
 * `tipovial || ' ' || nomvial` (via): nombre de la vía en mayúsculas, con acentuación y abreviaturas. Sin nombre es representado como "NINGUNO".
