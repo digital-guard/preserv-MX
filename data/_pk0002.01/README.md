@@ -12,7 +12,7 @@ Obtido via <i>site</i> em <b>16/08/2023</b> por:
 </td></tr>
 <tr><td>Camadas: <a title="via" href="#-via"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/></a> <a title="block" href="#-block"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/></a> <a title="nsvia" href="#-nsvia"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/></a> <a title="geoaddress" href="#-geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> </td></tr>
 <tr><td>Datos publicados en <a href="https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01">preservCutGeo-MX2021</a><br/><a href="#reproducibilidad">Reproducible</a></td></tr>
-<tr><td>Visualización: </td></tr>
+<tr><td>Visualización: <a title="block" href="https://viz.addressforall.org/MX/_pk0002.01/block"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/></a> <a title="geoaddress" href="https://viz.addressforall.org/MX/_pk0002.01/geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> <a title="nsvia" href="https://viz.addressforall.org/MX/_pk0002.01/nsvia"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/></a> <a title="via" href="https://viz.addressforall.org/MX/_pk0002.01/via"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/></a> </td></tr>
 </table>
 </aside>
 
@@ -36,31 +36,8 @@ Nombre del archivo: `m`<br/>*Descarga* e integridad: [55e32574fbee8b1088979c56df
 #### Filtrado de resultados y su publicación
 288700841 bytes (275.33 <abbr title="mebibyte">MiB</abbr>)<br/>869718 polígonos con 11002.14 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.13 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/block](https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/block)
 
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/> nsvia
-
-Nombre del archivo: `as`<br/>*Descarga* e integridad: [922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip](https://dl.digital-guard.org/922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip)<br/>Descripción: Asentamiento<br/>Tamaño del archivo: 19898946 bytes (18.98 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
-
-#### Datos relevantes
-* `nomasen` (nsvia): nombre del asentamiento.
-
-* `cveasen` (ref): clave de estadística INEGI para el asentamiento.
-
-#### Otros datos relevantes
-* `tipoasen`: tipo del asentamiento (barrio, colonia etc.).
-
-#### Filtrado de resultados y su publicación
-31068260 bytes (29.63 <abbr title="mebibyte">MiB</abbr>)<br/>24323 polígonos con 7535.53 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.03 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/nsvia](https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/nsvia)
-
-## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
-
-Nombre del archivo: `v`<br/>*Descarga* e integridad: [09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip](https://dl.digital-guard.org/09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip)<br/>Descripción: Vial<br/>Tamaño del archivo: 125594091 bytes (119.78 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
-
-#### Datos relevantes
-* `tipovial || ' ' || nomvial` (via): nombre de la vía en mayúsculas, con acentuación y abreviaturas. Sin nombre es representado como "NINGUNO".
-
-#### Filtrado de resultados y su publicación
-173472457 bytes (165.44 <abbr title="mebibyte">MiB</abbr>)<br/>952138 segmentos con 219952.49 <abbr title="quilômetros">km</abbr><br/>densidad media: 1.82 segmentos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/via](https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/via)
-
+#### Visualización
+[https://viz.addressforall.org/MX/_pk0002.01/block](https://viz.addressforall.org/MX/_pk0002.01/block)
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/> geoaddress
 
 Nombre del archivo: `direccion/*ne`<br/>*Descarga* e integridad: [d0b51cdba97f9c04eb7e8e4c17695770d66730b895308543781729851e0bd67e.zip](https://dl.digital-guard.org/d0b51cdba97f9c04eb7e8e4c17695770d66730b895308543781729851e0bd67e.zip)<br/>Descripción: Direccion<br/>Tamaño del archivo: 639926884 bytes (610.28 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
@@ -76,6 +53,41 @@ Nombre del archivo: `direccion/*ne`<br/>*Descarga* e integridad: [d0b51cdba97f9c
 
 #### Otros datos relevantes
 * `tipoasen`: tipo del asentamiento (barrio, colonia etc.).
+
+#### Filtrado de resultados y su publicación
+779422751 bytes (743.32 <abbr title="mebibyte">MiB</abbr>)<br/>14615100 pontos<br/>densidad media: 1867.15 pontos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/geoaddress](https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/geoaddress)
+
+#### Visualización
+[https://viz.addressforall.org/MX/_pk0002.01/geoaddress](https://viz.addressforall.org/MX/_pk0002.01/geoaddress)
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/> nsvia
+
+Nombre del archivo: `as`<br/>*Descarga* e integridad: [922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip](https://dl.digital-guard.org/922fd7121333ca1c08cedf94feaac8ffc08049cd8a51ea05a61dd6581e1554f9.zip)<br/>Descripción: Asentamiento<br/>Tamaño del archivo: 19898946 bytes (18.98 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
+
+#### Datos relevantes
+* `nomasen` (nsvia): nombre del asentamiento.
+
+* `cveasen` (ref): clave de estadística INEGI para el asentamiento.
+
+#### Otros datos relevantes
+* `tipoasen`: tipo del asentamiento (barrio, colonia etc.).
+
+#### Filtrado de resultados y su publicación
+31068260 bytes (29.63 <abbr title="mebibyte">MiB</abbr>)<br/>24323 polígonos con 7535.53 <abbr title="quilômetros quadrados">km²</abbr><br/>densidad media: 0.03 polígonos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/nsvia](https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/nsvia)
+
+#### Visualización
+[https://viz.addressforall.org/MX/_pk0002.01/nsvia](https://viz.addressforall.org/MX/_pk0002.01/nsvia)
+## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/> via
+
+Nombre del archivo: `v`<br/>*Descarga* e integridad: [09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip](https://dl.digital-guard.org/09a6131f004f8561b1731e37d805ffd73a6cd0d78c195f15dd9b0827362a6ce5.zip)<br/>Descripción: Vial<br/>Tamaño del archivo: 125594091 bytes (119.78 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
+
+#### Datos relevantes
+* `tipovial || ' ' || nomvial` (via): nombre de la vía en mayúsculas, con acentuación y abreviaturas. Sin nombre es representado como "NINGUNO".
+
+#### Filtrado de resultados y su publicación
+173472457 bytes (165.44 <abbr title="mebibyte">MiB</abbr>)<br/>952138 segmentos con 219952.49 <abbr title="quilômetros">km</abbr><br/>densidad media: 1.82 segmentos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/via](https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/via)
+
+#### Visualización
+[https://viz.addressforall.org/MX/_pk0002.01/via](https://viz.addressforall.org/MX/_pk0002.01/via)
 
 # Evidencia de prueba
 <img src="evidenceTest.png" width="400"/>
