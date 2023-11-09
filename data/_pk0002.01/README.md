@@ -5,7 +5,7 @@
 <tr><td>
 Donante: <a rel="external" target="_doador" href="https://www.inegi.org.mx">Instituto Nacional de Estadística y Geografía</a>
 <br/>&nbsp; <small>RFC INE0804164Z7</small> • Wikidata <a rel="external" target="_doador" title="Enlace del descriptor Wikidata del donante" href="https://www.wikidata.org/wiki/Q795074">Q795074</a></small><br/>
-
+Licencia <a rel="external" target="_doador" href="https://git.digital-guard.org/licenses/blob/master/reports/implied-INEGI-MX-v1.md"><b>Implied INEGI-MX-1.0</b></a> (by)<br/>
 Obtido via <i>site</i> em <b>16/08/2023</b> por:
 <br/>&nbsp; Avaliação técnica: <a rel="external" target="_gitPerson" title="Usuario de Git" href="https://github.com/0e1">0e1</a>
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
