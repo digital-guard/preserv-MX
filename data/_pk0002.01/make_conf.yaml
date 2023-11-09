@@ -42,6 +42,9 @@ files:
   p: 9
   size: 11421950
 
+license_evidences:
+  definition: [Implied INEGI-MX-1.0, by, 'https://git.digital-guard.org/licenses/blob/master/reports/implied-INEGI-MX-v1.md']
+
 layers:
   geoaddress:
     subtype: full
