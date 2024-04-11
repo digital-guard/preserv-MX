@@ -2,15 +2,27 @@
 
 ## Proceso utilizado para reagrupar datos convenientemente
 
-1. Preparando la lista de archivos para descargar:
+1. Creación del directorio de trabajo:
 
 ```sh
 mkdir arquivos && cd arquivos
 
-grep -E -i '^[0-9]+' Mapas_2023719_214631165.csv | awk -F"[\.,]"  '{print $1","$3","$12}' | sed 's/, /,/g;s/Urbanas/urbana/;s/Rurales/rural/;s/ /_/g' > data.csv
 ```
 
-2. Script para descargar archivos:
+2. Obteniendo la lista de archivos en formato csv:
+
+Busque y exporte el resultado de búsqueda de `Vectorial de localidades amanzanadas y números exteriores, Urbanas` o `Vectorial de localidades amanzanadas y números exteriores, Rurales` en https://www.inegi.org.mx/app/mapas/#Busqueda_avanzada en la raíz del paquete de datos.
+
+![image](https://github.com/digital-guard/preserv-MX/blob/main/data/_pk0002.01/buscaAvancada.png)
+
+
+3. Preparando la lista de archivos para descargar:
+
+```sh
+grep -E -i '^\"?[0-9]+' ../Mapas_2024411_22115535.csv | awk -F"[\.,]"  '{print $1","$3","$12}' | sed 's/\"//g;s/, /,/g;s/\"//g;s/Urbanas/urbana/;s/Rurales/rural/;s/ /_/g' > data.csv
+```
+
+4. Script para descargar archivos:
 
 ```sh
 #! /bin/bash
@@ -20,7 +32,7 @@ do
 done < data.csv
 ```
 
-3. Script para generar el sha256 de los archivos descargados:
+5. Script para generar el sha256 de los archivos descargados:
 
 ```sh
 #! /bin/bash
@@ -28,29 +40,31 @@ while IFS="," read -r c1 c2 c3
 do
   sha256=$(sha256sum -b ${c1}_s.zip)
   echo "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/${c2}/SHP_2/${c3}/${c1}_s.zip,${sha256}" >> ../sha256_originales.csv
-done < ../data.csv
+done < data.csv
 ```
 
-4. Descomprimir archivos descargados:
+6. Descomprimir archivos descargados:
 
 ```sh
 #! /bin/bash
+mkdir extract1
 while IFS="," read -r c1 c2 c3
 do
   unzip -o ${c1}_s.zip -d extract1
-done < ../data.csv
+done < data.csv
 ```
 
-5. Descomprimir archivos comprimidos dentro de archivos comprimidos:
+7. Descomprimir archivos comprimidos dentro de archivos comprimidos:
 
 ```sh
-find arquivos/extract1 -type f -name '*.zip' -exec unzip -o {} -d arquivos/extract2 \; &> logunzip2
-find arquivos/extract2 -type f -name '*.zip' -exec unzip -o {} -d arquivos/extract3 \; &> logunzip3
-find arquivos/extract1/conjunto_de_datos -type f -name '*.zip' -exec unzip -o {} -d arquivos/extract4 \; &> logunzip4
-find arquivos/extract4 -type f -name '*.zip' -exec unzip -o {} -d arquivos/extract5 \; &> logunzip5
+mkdir extract{2,3,4,5}
+find extract1 -type f -name '*.zip' -exec unzip -o {} -d extract2 \; &> logunzip2
+find extract2 -type f -name '*.zip' -exec unzip -o {} -d extract3 \; &> logunzip3
+find extract1/conjunto_de_datos -type f -name '*.zip' -exec unzip -o {} -d extract4 \; &> logunzip4
+find extract4 -type f -name '*.zip' -exec unzip -o {} -d extract5 \; &> logunzip5
 ```
 
-6. Crear directorios para diferentes tipos de datos:
+8. Crear directorios para diferentes tipos de datos:
 
 ```sh
 mkdir {a,as,fm,l,m,ne,sia,sip,v}
@@ -66,20 +80,21 @@ mv sip poi
 mv v   vial
 ```
 
-7. Mover datos a los directorios respectivos:
+9. Mover datos a los directorios respectivos:
 
 ```sh
-find arquivos -type f \( -name \*sia.shp -o -name \*sia.dbf -o -name \*sia.prj -o -name \*sia.shx -o -name \*sia.shp.xml \) -exec mv -t arquivos_r/servicio_publico {} +
-find arquivos -type f \( -name \*sip.shp -o -name \*sip.dbf -o -name \*sip.prj -o -name \*sip.shx -o -name \*sip.shp.xml \) -exec mv -t arquivos_r/poi {} +
-find arquivos -type f \( -name \*ne.shp  -o -name \*ne.dbf  -o -name \*ne.prj  -o -name \*ne.shx  -o -name \*ne.shp.xml  \) -exec mv -t arquivos_r/direccion  {} +
-find arquivos -type f \( -name \*fm.shp  -o -name \*fm.dbf  -o -name \*fm.prj  -o -name \*fm.shx  -o -name \*fm.shp.xml  \) -exec mv -t arquivos_r/frente_manzana  {} +
-find arquivos -type f \( -name \*as.shp  -o -name \*as.dbf  -o -name \*as.prj  -o -name \*as.shx  -o -name \*as.shp.xml  \) -exec mv -t arquivos_r/asentamiento  {} +
-find arquivos -type f \( -name \*v.shp   -o -name \*v.dbf   -o -name \*v.prj   -o -name \*v.shx   -o -name \*v.shp.xml   \) -exec mv -t arquivos_r/vial   {} +
-find arquivos -type f \( -name \*a.shp   -o -name \*a.dbf   -o -name \*a.prj   -o -name \*a.shx   -o -name \*a.shp.xml   \) -exec mv -t arquivos_r/area_geoestadistica {} +
-find arquivos -type f \( -name \*m.shp   -o -name \*m.dbf   -o -name \*m.prj   -o -name \*m.shx   -o -name \*m.shp.xml   \) -exec mv -t arquivos_r/manzana   {} +
-find arquivos -type f \( -name \*l.shp   -o -name \*l.dbf   -o -name \*l.prj   -o -name \*l.shx   -o -name \*l.shp.xml   \) -exec mv -t arquivos_r/area_urbana   {} +
+find . -type f \( -name \*sia.shp -o -name \*sia.dbf -o -name \*sia.prj -o -name \*sia.shx -o -name \*sia.shp.xml \) -exec mv -t servicio_publico {} +
+find . -type f \( -name \*sip.shp -o -name \*sip.dbf -o -name \*sip.prj -o -name \*sip.shx -o -name \*sip.shp.xml \) -exec mv -t poi {} +
+find . -type f \( -name \*ne.shp  -o -name \*ne.dbf  -o -name \*ne.prj  -o -name \*ne.shx  -o -name \*ne.shp.xml  \) -exec mv -t direccion  {} +
+find . -type f \( -name \*fm.shp  -o -name \*fm.dbf  -o -name \*fm.prj  -o -name \*fm.shx  -o -name \*fm.shp.xml  \) -exec mv -t frente_manzana  {} +
+find . -type f \( -name \*as.shp  -o -name \*as.dbf  -o -name \*as.prj  -o -name \*as.shx  -o -name \*as.shp.xml  \) -exec mv -t asentamiento  {} +
+find . -type f \( -name \*v.shp   -o -name \*v.dbf   -o -name \*v.prj   -o -name \*v.shx   -o -name \*v.shp.xml   \) -exec mv -t vial   {} +
+find . -type f \( -name \*a.shp   -o -name \*a.dbf   -o -name \*a.prj   -o -name \*a.shx   -o -name \*a.shp.xml   \) -exec mv -t area_geoestadistica {} +
+find . -type f \( -name \*m.shp   -o -name \*m.dbf   -o -name \*m.prj   -o -name \*m.shx   -o -name \*m.shp.xml   \) -exec mv -t manzana   {} +
+find . -type f \( -name \*l.shp   -o -name \*l.dbf   -o -name \*l.prj   -o -name \*l.shx   -o -name \*l.shp.xml   \) -exec mv -t area_urbana   {} +
 ```
-8. Comprimir archivos:
+
+10. Comprimir archivos:
 
 ```sh
 zip -r area_geoestadistica.zip area_geoestadistica
@@ -93,3 +108,18 @@ zip -r servicio_publico.zip servicio_publico
 zip -r vial.zip vial
 ```
 
+11. Preservación digital de archivos generados:
+
+Para preservar digitalmente los archivos generados en el ítem anterior, consulte el paso del Workflow: https://wiki.addressforall.org/doc/dg:Workflow#Gerar_sha256
+
+12. Eliminar los archivos:
+
+```sh
+cd ../ && rm -rf arquivos
+```
+
+12. Subir diferencias al repositorio remoto:
+
+```sh
+git push
+```
