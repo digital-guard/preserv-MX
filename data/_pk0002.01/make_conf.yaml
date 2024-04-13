@@ -8,39 +8,39 @@ files:
 - file: cf292acbe8d4b1b562a9af3172b2e8571de0f24be7fd814f10fdc50323d9494f.zip
   name: Direccion
   p: 1
-  size: 639926884
+  size: 586193052
 - file: 10a9a43d9081e00bacca240b93847819671abde1f00807035df03206261fa572.zip
   name: Manzana
   p: 2
-  size: 185367739
+  size: 462956079
 - file: f45c916e53cbd61e789a80651ff0986ad20ff5bea0f80a957d80873183e2a464.zip
   name: Asentamiento
   p: 3
-  size: 19898946
+  size: 19495408
 - file: a4a1a9253a1cd1633fd9680a73601d450919abcd9937a0f52f436856c0ff15e7.zip
   name: Vial
   p: 4
-  size: 125594091
+  size: 115690125
 - file: aa019577f9870600ce8f1fa8a491dd5d40a2d7b7b2910ea0af70f308d9904747.zip
   name: Frente manzana
   p: 5
-  size: 315587276
+  size: 180
 - file: 676e5f38a251db47e0a25968922e638d638200db4d9e3adedaca27fd382cc491.zip
   name: Area urbana
   p: 6
-  size: 50364219
+  size: 45590844
 - file: a4f41b4d35e6b7b5dc1cf8e45fb4d670afc90618af266102343866aa37ed329f.zip
   name: Area geoestadistica
   p: 7
-  size: 28386717
+  size: 38629053
 - file: 037347f05c27d952ab0a2eee43e68d63ab527a0a1c99d658cdcad11a3750551a.zip
   name: Poi
   p: 8
-  size: 34315660
+  size: 31437891
 - file: 176fc3bdc677b432aa3457dd60ffb3c16fd5a21c92ce5919447d8609bf41fa9c.zip
   name: Servicio publico
   p: 9
-  size: 11421950
+  size: 184
 
 license_evidences:
   definition: [Implied INEGI-MX-1.0, by, 'https://git.digital-guard.org/licenses/blob/master/reports/implied-INEGI-MX-v1.md']
