@@ -11,7 +11,8 @@ Obtido via <i>site</i> em <b>12/04/2024</b> por:
 <br/>&nbsp; Representação institucional: <a rel="external" target="_gitPerson" title="Usuario de" href="https://github.com/ThierryAJean">ThierryAJean</a><br/>
 </td></tr>
 <tr><td>Camadas: <a title="via" href="#-via"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-via.png" alt="via" width="20"/></a> <a title="block" href="#-block"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/></a> <a title="nsvia" href="#-nsvia"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-nsvia.png" alt="nsvia" width="20"/></a> <a title="geoaddress" href="#-geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> </td></tr>
-
+<tr><td>Datos publicados en <a href="https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01">preservCutGeo-MX2021</a><br/><a href="#reproducibilidad">Reproducible</a></td></tr>
+<tr><td>Visualización: <a title="geoaddress" href="https://viz.addressforall.org/MX/_pk0002.01/geoaddress"><img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-geoaddress.png" alt="geoaddress" width="20"/></a> </td></tr>
 </table>
 </aside>
 
@@ -41,6 +42,11 @@ Nombre del archivo: `direccion/*ne`<br/>*Descarga* e integridad: [cf292acbe8d4b1
 #### Otros datos relevantes
 * `tipoasen`: tipo del asentamiento (barrio, colonia etc.).
 
+#### Filtrado de resultados y su publicación
+734393679 bytes (700.37 <abbr title="mebibyte">MiB</abbr>)<br/>13775321 pontos<br/>densidad media: 1791.59 pontos/km²<br/>GeoJSONs publicados em [https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/geoaddress](https://git.digital-guard.org/preservCutGeo-MX2021/tree/main/data/_pk0002.01/geoaddress)
+
+#### Visualización
+[https://viz.addressforall.org/MX/_pk0002.01/geoaddress](https://viz.addressforall.org/MX/_pk0002.01/geoaddress)
 ## <img src="https://raw.githubusercontent.com/digital-guard/preserv/main/docs/assets/layerIcon-block.png" alt="block" width="20"/> block
 
 Nombre del archivo: `m`<br/>*Descarga* e integridad: [10a9a43d9081e00bacca240b93847819671abde1f00807035df03206261fa572.zip](https://dl.digital-guard.org/10a9a43d9081e00bacca240b93847819671abde1f00807035df03206261fa572.zip)<br/>Descripción: Manzana<br/>Tamaño del archivo: 462956079 bytes (441.51 <abbr title="mebibyte">MiB</abbr>)<br/>Formato: shp<br/>SRID: 6362
