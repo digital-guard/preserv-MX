@@ -26,4 +26,4 @@ En este *git*, solo se guardan los metadatos, es decir, descriptores de entidad,
 * [`/data/_out`](./data/_out): resultados generados por el sistema (**salida**), es decir, metadatos creados a partir de los algoritmos y estadísticas aplicados a los datos de `_pack`.
 
 ## Licencia
-[Licencia CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.es).
+[Licencia INEGI](https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf).

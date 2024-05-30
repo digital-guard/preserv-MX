@@ -39,13 +39,16 @@ done < data.csv
 while IFS="," read -r c1 c2 c3
 do
   sha256=$(sha256sum -b ${c1}_s.zip)
-  echo "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/${c2}/SHP_2/${c3}/${c1}_s.zip,${sha256}" >> ../sha256_originales.csv
+  echo "https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/${c2}/SHP_2/${c3}/${c1}_s.zip,${sha256}" >> sha256_originales.csv
 done < data.csv
 ```
 
 6. Descomprimir archivos descargados:
 
 ```sh
+a
+
+
 #! /bin/bash
 mkdir extract1
 while IFS="," read -r c1 c2 c3
@@ -111,6 +114,34 @@ zip -r vial.zip vial
 11. Preservación digital de archivos generados:
 
 Para preservar digitalmente los archivos generados en el ítem anterior, consulte el paso del Workflow: https://wiki.addressforall.org/doc/dg:Workflow#Gerar_sha256
+
+```sh
+upcloud(){
+    link_operacao='operacao:preserv.addressforall.org/download/'
+    file=$1
+
+    sha256file=$(sha256sum -b ${file} | cut -d' ' -f1)
+
+    file_namezip=${sha256file}.zip
+
+    mv $file $file_namezip
+
+    sudo rclone copy ${file_namezip} ${link_operacao}
+    url_cloud=$( sudo rclone link ${link_operacao}${file_namezip})
+
+    echo "${file_namezip},${url_cloud}"
+}
+
+upcloud area_geoestadistica.zip
+upcloud area_urbana.zip
+upcloud asentamiento.zip
+upcloud direccion.zip
+upcloud frente_manzana.zip
+upcloud manzana.zip
+upcloud poi.zip
+upcloud servicio_publico.zip
+upcloud vial.zip
+```
 
 12. Eliminar los archivos:
 
