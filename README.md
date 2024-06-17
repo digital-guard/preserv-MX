@@ -13,6 +13,8 @@ El territorio nacional y sus subdivisiones representam **jurisdiciones**:
 
 La jurisdicción que asigna nombres a las calles y el sistema de numeración urbana es el municipio.
 
+https://es.wikipedia.org/wiki/Anexo:Entidades_federativas_de_M%C3%A9xico
+
 ## Organización de este repositorio
 
 En este *git*, solo se guardan los metadatos, es decir, descriptores de entidad, como nombres y códigos geográficos &mdash; mapas y otros datos, almacenados externamente porque son muy grandes. Los metadatos se organizaron de la siguiente manera, en la carpeta [`/data`](./data):
