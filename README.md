@@ -28,4 +28,10 @@ En este *git*, solo se guardan los metadatos, es decir, descriptores de entidad,
 * [`/data/_out`](./data/_out): resultados generados por el sistema (**salida**), es decir, metadatos creados a partir de los algoritmos y estadísticas aplicados a los datos de `_pack`.
 
 ## Licencia
-[Licencia CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.es).
+La licencia es específica para México y está en este enlace: https://www.inegi.org.mx/contenidos/inegi/doc/terminos_info.pdf (TÉRMINOS DE LIBRE USO DE LA INFORMACIÓN DEL INEGI)
+La familia de la licencia es CC BY y requiere atribuir el dato a: "INEGI, Censos Económicos"
+La licencia especifica: f) Debe otorgar los créditos correspondientes al INEGI como autor, y cuando técnicamente
+sea posible, mencionar la fuente de extracción de la información de la siguiente manera:
+“Fuente: INEGI, nombre del producto de donde se extrae la información” y en su caso fecha
+de actualización, ejemplo: “Fuente: INEGI, Censos Económicos 2009”.
+
